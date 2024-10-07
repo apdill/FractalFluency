@@ -1,4 +1,6 @@
-from .fractal_generation import fractal_generation
-from .image_processing import image_processing
+# FF/__init__.py
+
+from . import fractal_generation
+from . import image_processing
 
 __all__ = ['fractal_generation', 'image_processing']
