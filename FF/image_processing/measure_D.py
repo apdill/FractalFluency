@@ -9,7 +9,7 @@ def measure_D(input_array, min_size = 1, max_size = 1000, n_sizes = 20, invert =
     counts = np.array(counts)
     
     d_value = get_d_value(sizes, counts)
-    print(f"D-value: {d_value:.3f}")
+    #print(f"D-value: {d_value:.3f}")
     
     if plot_image:
         scaling_plot(sizes, counts)
