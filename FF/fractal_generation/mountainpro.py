@@ -2,93 +2,61 @@ import numpy as np
 from numba import njit
 
 @njit
-def mountainpro(scalemap, iterations, zslice):
+def mountainpro(scalemap, iterations, zslice, scale_factor=1.0):
     """
-    Optimized function to generate slicexz and slicexzline using Numba.
+    Optimized function to generate mountain profile slices using Numba.
     
     Parameters:
     scalemap (np.ndarray): 2D NumPy array representing the scalemap.
     iterations (int): Number of iterations used to determine the size.
     zslice (float): Normalized z-slice value (0 to 1).
+    scale_factor (float): Factor to scale the profile vertically.
     
     Returns:
-    tuple: Two 2D NumPy arrays (slicexz, slicexzline) of dtype uint8.
+    tuple: Two 2D NumPy arrays (profile_filled, profile_outline) of dtype uint8.
     """
-    n = 2 ** iterations
-    zslice = int(np.ceil(n * zslice))
+    grid_size = 2 ** iterations
+    zslice = int(np.ceil(grid_size * zslice))
     
-    sliceloop = n // 2  # down the middle
+    middle_row = grid_size // 2  # down the middle
     
-    # Initialize slicexz and slicexzline with zeros
-    slicexz = np.zeros((n, n), dtype=np.uint8)
-    slicexzline = np.zeros((n, n), dtype=np.uint8)
+    # Initialize output arrays with zeros
+    profile_filled = np.zeros((grid_size, grid_size), dtype=np.uint8)
+    profile_outline = np.zeros((grid_size, grid_size), dtype=np.uint8)
     
-    tracexz = scalemap[sliceloop, :]
+    height_values = scalemap[middle_row, :]
     
-    oldxz = tracexz[0]
-    for ct in range(n):
-        # Ensure tracexz[ct] does not exceed the bounds of slicexz
-        max_tracexz = tracexz[ct]
-        if max_tracexz > (n - 1):
-            max_tracexz = n - 1
-        max_tracexz = int(max_tracexz)
-        
-        # Set slicexz[ctc, ct] = 1 for ctc in range(max_tracexz)
-        for ctc in range(max_tracexz):
-            slicexz[ctc, ct] = 1
-        
-        # Calculate the range for slicexzline
-        min_val = oldxz if oldxz < tracexz[ct] else tracexz[ct]
-        max_val = oldxz if oldxz > tracexz[ct] else tracexz[ct]
-        
-        # Ensure the range does not exceed the bounds
-        if min_val < 0:
-            min_val = 0
-        if max_val >= n:
-            max_val = n - 1
-        min_val = int(min_val)
-        max_val = int(max_val) + 1  # Inclusive of max_val
-        
-        # Set slicexzline[ctc, ct] = 1 for ctc in the calculated range
-        for ctc in range(min_val, max_val):
-            slicexzline[ctc, ct] = 1
-        
-        oldxz = tracexz[ct]
+    # Normalize heights to [0, 1]
+    min_height = height_values.min()
+    max_height = height_values.max()
+    if max_height == min_height:
+        max_height = min_height + 1e-9  # Avoid divide-by-zero
     
-    return slicexz, slicexzline
+    normalized_heights = (height_values - min_height) / (max_height - min_height)
+    
+    # Scale and center the heights
+    scaled_heights = (
+        (normalized_heights - 0.5) * scale_factor * (grid_size - 1) + (grid_size / 2)
+    )
+    scaled_heights = np.clip(scaled_heights, 0, grid_size - 1).astype(np.int32)  # Clamp to bounds
 
-'''
-import numpy as np
+    prev_height = scaled_heights[0]
 
-def mountainpro(scalemap, iterations, zslice):
-    n = 2 ** iterations
-    zslice = int(np.ceil(n * zslice))
+    for x_pos in range(grid_size):
+        current_height = scaled_heights[x_pos]
+        
+        # Fill the profile up to the scaled height
+        for y_pos in range(current_height + 1):  # Inclusive of max height
+            profile_filled[y_pos, x_pos] = 1
+        
+        # Outline between scaled previous and current heights
+        min_outline = min(prev_height, current_height)
+        max_outline = max(prev_height, current_height)
+        for y_pos in range(min_outline, max_outline + 1):  # Inclusive of max height
+            profile_outline[y_pos, x_pos] = 1
+        
+        # Update the previous height for the next iteration
+        prev_height = current_height
     
-    sliceloop = n // 2  # down the middle
+    return profile_filled, profile_outline
 
-    slicexz = np.zeros((n, n), dtype=np.uint8)
-    slicexzline = np.zeros((n, n), dtype=np.uint8)
-
-    tracexz = scalemap[sliceloop, :]
-
-    oldxz = tracexz[0]
-    for ct in range(n):
-        # Ensure tracexz[ct] does not exceed the bounds of slicexz
-        max_tracexz = min(int(tracexz[ct]), n - 1)
-        
-        for ctc in range(max_tracexz):
-            slicexz[ctc, ct] = 1
-        
-        for ctc in range(int(min(oldxz, tracexz[ct])), min(int(max(oldxz, tracexz[ct])) + 1, n)):
-            slicexzline[ctc, ct] = 1
-        
-        oldxz = tracexz[ct]
-    
-    return slicexz, slicexzline
-
-# Example usage:
-# max_iter = 9  # Example value for max_iter
-# zslice = 0.5  # Example value for zslice (normalized, 0 to 1)
-# scalemap = np.random.rand((2 ** max_iter), (2 ** max_iter))  # Example scalemap
-# slicexz, slicexzline = mountainpro(max_iter, zslice, scalemap)
-'''

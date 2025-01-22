@@ -1,6 +1,7 @@
 import numpy as np
+from skimage.filters import gaussian
 
-def thresh(scalemap, medianz=True, zslice_ratio=0.5):
+def thresh(scalemap, medianz=True, zslice_ratio=0.5, gaussian_blur=False, sigma=1):
     n = scalemap.shape[0]
     
     if not medianz:
@@ -21,5 +22,9 @@ def thresh(scalemap, medianz=True, zslice_ratio=0.5):
                 threshmap[xx, yy] = 255  # White
     
     bwratio = blackcount / (n ** 2)
+    
+    if gaussian_blur:
+        threshmap = gaussian(threshmap, sigma=sigma)
+
     return threshmap, bwratio
 

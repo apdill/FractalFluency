@@ -2,7 +2,7 @@ import numpy as np
 from numba import njit, prange
 
 @njit
-def midpoint_displacement(iterations, P, D):
+def midpoint_displacement(iterations, P, D, H_scale=0.5):
     # Initialize n based on the number of iterations
     n = 2 ** iterations + 1
 
@@ -23,7 +23,7 @@ def midpoint_displacement(iterations, P, D):
 
     # Precompute H and hval outside the loop for efficiency
     H = 2.0 - D
-    hval = 0.5 ** (H / 2.0)
+    hval = 0.5 ** (H * H_scale)
 
     for i in range(iterations):
         # Number of divisions at this iteration

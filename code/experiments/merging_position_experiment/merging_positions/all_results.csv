@@ -1,0 +1,701 @@
+n_neurons,step,D0,R2_D0,D1,R2_D1,total_overlap_area,total_overlap_percentage,mean_soma_distance,std_soma_distance
+2,0,"0    1.383008
+Name: D0, dtype: float64","0    0.999
+Name: R2_D0, dtype: float64","0    1.402427
+Name: D1, dtype: float64","0    0.999211
+Name: R2_D1, dtype: float64",0,0.0,2850.0,0.0
+2,1,"0    1.38205
+Name: D0, dtype: float64","0    0.999085
+Name: R2_D0, dtype: float64","0    1.401431
+Name: D1, dtype: float64","0    0.999249
+Name: R2_D1, dtype: float64",0,0.0,2700.0,0.0
+2,2,"0    1.380359
+Name: D0, dtype: float64","0    0.99908
+Name: R2_D0, dtype: float64","0    1.401329
+Name: D1, dtype: float64","0    0.999261
+Name: R2_D1, dtype: float64",0,0.0,2550.0,0.0
+2,3,"0    1.380848
+Name: D0, dtype: float64","0    0.999204
+Name: R2_D0, dtype: float64","0    1.402177
+Name: D1, dtype: float64","0    0.999237
+Name: R2_D1, dtype: float64",0,0.0,2400.0,0.0
+2,4,"0    1.383418
+Name: D0, dtype: float64","0    0.999018
+Name: R2_D0, dtype: float64","0    1.401784
+Name: D1, dtype: float64","0    0.999232
+Name: R2_D1, dtype: float64",0,0.0,2250.0,0.0
+2,5,"0    1.379625
+Name: D0, dtype: float64","0    0.999161
+Name: R2_D0, dtype: float64","0    1.401187
+Name: D1, dtype: float64","0    0.999248
+Name: R2_D1, dtype: float64",0,0.0,2100.0,0.0
+2,6,"0    1.380145
+Name: D0, dtype: float64","0    0.999067
+Name: R2_D0, dtype: float64","0    1.400882
+Name: D1, dtype: float64","0    0.999261
+Name: R2_D1, dtype: float64",0,0.0,1950.0,0.0
+2,7,"0    1.383554
+Name: D0, dtype: float64","0    0.999065
+Name: R2_D0, dtype: float64","0    1.401327
+Name: D1, dtype: float64","0    0.999242
+Name: R2_D1, dtype: float64",0,0.0,1800.0,0.0
+2,8,"0    1.37979
+Name: D0, dtype: float64","0    0.999103
+Name: R2_D0, dtype: float64","0    1.401451
+Name: D1, dtype: float64","0    0.999254
+Name: R2_D1, dtype: float64",0,0.0,1650.0,0.0
+2,9,"0    1.380485
+Name: D0, dtype: float64","0    0.999156
+Name: R2_D0, dtype: float64","0    1.401056
+Name: D1, dtype: float64","0    0.99926
+Name: R2_D1, dtype: float64",0,0.0,1500.0,0.0
+2,10,"0    1.385016
+Name: D0, dtype: float64","0    0.998899
+Name: R2_D0, dtype: float64","0    1.402975
+Name: D1, dtype: float64","0    0.999216
+Name: R2_D1, dtype: float64",0,0.0,1350.0,0.0
+2,11,"0    1.396414
+Name: D0, dtype: float64","0    0.998736
+Name: R2_D0, dtype: float64","0    1.411213
+Name: D1, dtype: float64","0    0.998978
+Name: R2_D1, dtype: float64",0,0.0,1200.0,0.0
+2,12,"0    1.42217
+Name: D0, dtype: float64","0    0.998329
+Name: R2_D0, dtype: float64","0    1.426122
+Name: D1, dtype: float64","0    0.998685
+Name: R2_D1, dtype: float64",5,0.006410996140580324,1050.0,0.0
+2,13,"0    1.446357
+Name: D0, dtype: float64","0    0.998576
+Name: R2_D0, dtype: float64","0    1.452481
+Name: D1, dtype: float64","0    0.998747
+Name: R2_D1, dtype: float64",108,0.138477516636535,900.0,0.0
+2,14,"0    1.462867
+Name: D0, dtype: float64","0    0.998922
+Name: R2_D0, dtype: float64","0    1.485039
+Name: D1, dtype: float64","0    0.998926
+Name: R2_D1, dtype: float64",217,0.27823723250118604,750.0,0.0
+2,15,"0    1.481923
+Name: D0, dtype: float64","0    0.999264
+Name: R2_D0, dtype: float64","0    1.516398
+Name: D1, dtype: float64","0    0.99894
+Name: R2_D1, dtype: float64",820,1.051403367055173,600.0,0.0
+2,16,"0    1.509521
+Name: D0, dtype: float64","0    0.999229
+Name: R2_D0, dtype: float64","0    1.556357
+Name: D1, dtype: float64","0    0.998958
+Name: R2_D1, dtype: float64",1110,1.4232411432088319,450.0,0.0
+2,17,"0    1.528464
+Name: D0, dtype: float64","0    0.999056
+Name: R2_D0, dtype: float64","0    1.563459
+Name: D1, dtype: float64","0    0.999155
+Name: R2_D1, dtype: float64",1658,2.125886320216435,300.0,0.0
+2,18,"0    1.551471
+Name: D0, dtype: float64","0    0.998434
+Name: R2_D0, dtype: float64","0    1.576954
+Name: D1, dtype: float64","0    0.998306
+Name: R2_D1, dtype: float64",1570,2.0130527881422213,150.0,0.0
+2,19,"0    1.540869
+Name: D0, dtype: float64","0    0.997857
+Name: R2_D0, dtype: float64","0    1.546276
+Name: D1, dtype: float64","0    0.998505
+Name: R2_D1, dtype: float64",2657,3.4068033491043836,0.0,0.0
+3,0,"0    1.399871
+Name: D0, dtype: float64","0    0.99938
+Name: R2_D0, dtype: float64","0    1.424881
+Name: D1, dtype: float64","0    0.999508
+Name: R2_D1, dtype: float64",0,0.0,2469.4130257423253,0.4689430427166497
+3,1,"0    1.399206
+Name: D0, dtype: float64","0    0.999344
+Name: R2_D0, dtype: float64","0    1.424519
+Name: D1, dtype: float64","0    0.999524
+Name: R2_D1, dtype: float64",0,0.0,2340.7499390283187,0.9378161547053985
+3,2,"0    1.39806
+Name: D0, dtype: float64","0    0.999402
+Name: R2_D0, dtype: float64","0    1.425981
+Name: D1, dtype: float64","0    0.999497
+Name: R2_D1, dtype: float64",0,0.0,2212.0869685201806,1.4066070967366018
+3,3,"0    1.39691
+Name: D0, dtype: float64","0    0.999368
+Name: R2_D0, dtype: float64","0    1.425277
+Name: D1, dtype: float64","0    0.999509
+Name: R2_D1, dtype: float64",0,0.0,2083.4241358161908,1.8753005965199026
+3,4,"0    1.396156
+Name: D0, dtype: float64","0    0.999338
+Name: R2_D0, dtype: float64","0    1.425591
+Name: D1, dtype: float64","0    0.999503
+Name: R2_D1, dtype: float64",0,0.0,1954.76146822049,2.343877347112591
+3,5,"0    1.397155
+Name: D0, dtype: float64","0    0.999342
+Name: R2_D0, dtype: float64","0    1.425396
+Name: D1, dtype: float64","0    0.999508
+Name: R2_D1, dtype: float64",0,0.0,1826.0990007605294,2.8123125803662696
+3,6,"0    1.399612
+Name: D0, dtype: float64","0    0.999358
+Name: R2_D0, dtype: float64","0    1.424863
+Name: D1, dtype: float64","0    0.99951
+Name: R2_D1, dtype: float64",0,0.0,1697.4367791256316,3.280573989050969
+3,7,"0    1.401329
+Name: D0, dtype: float64","0    0.999298
+Name: R2_D0, dtype: float64","0    1.424747
+Name: D1, dtype: float64","0    0.999522
+Name: R2_D1, dtype: float64",0,0.0,1568.774864057713,3.7486186221454605
+3,8,"0    1.400134
+Name: D0, dtype: float64","0    0.999254
+Name: R2_D0, dtype: float64","0    1.424923
+Name: D1, dtype: float64","0    0.99951
+Name: R2_D1, dtype: float64",0,0.0,1440.1133381065192,4.216388108165749
+3,9,"0    1.407061
+Name: D0, dtype: float64","0    0.999033
+Name: R2_D0, dtype: float64","0    1.42685
+Name: D1, dtype: float64","0    0.999478
+Name: R2_D1, dtype: float64",0,0.0,1311.4523163813935,4.683801052513648
+3,10,"0    1.418886
+Name: D0, dtype: float64","0    0.998816
+Name: R2_D0, dtype: float64","0    1.431861
+Name: D1, dtype: float64","0    0.999355
+Name: R2_D1, dtype: float64",0,0.0,1182.7919643597797,5.150740444967058
+3,11,"0    1.43828
+Name: D0, dtype: float64","0    0.998043
+Name: R2_D0, dtype: float64","0    1.443879
+Name: D1, dtype: float64","0    0.999085
+Name: R2_D1, dtype: float64",0,0.0,1054.1325288194114,5.617031787316933
+3,12,"0    1.469522
+Name: D0, dtype: float64","0    0.997454
+Name: R2_D0, dtype: float64","0    1.465237
+Name: D1, dtype: float64","0    0.998738
+Name: R2_D1, dtype: float64",8,0.006432057373951776,925.4743947567476,6.082402845956269
+3,13,"0    1.49515
+Name: D0, dtype: float64","0    0.997816
+Name: R2_D0, dtype: float64","0    1.494058
+Name: D1, dtype: float64","0    0.998666
+Name: R2_D1, dtype: float64",125,0.1005008964679965,796.8181979065452,6.546404088527623
+3,14,"0    1.51589
+Name: D0, dtype: float64","0    0.998488
+Name: R2_D0, dtype: float64","0    1.524907
+Name: D1, dtype: float64","0    0.999018
+Name: R2_D1, dtype: float64",603,0.48481632456161505,668.1650685465119,7.008236287999192
+3,15,"0    1.541918
+Name: D0, dtype: float64","0    0.998105
+Name: R2_D0, dtype: float64","0    1.548486
+Name: D1, dtype: float64","0    0.998965
+Name: R2_D1, dtype: float64",2693,2.1651913135065164,539.5172284132465,7.466328439355893
+3,16,"0    1.579006
+Name: D0, dtype: float64","0    0.998551
+Name: R2_D0, dtype: float64","0    1.5994
+Name: D1, dtype: float64","0    0.998854
+Name: R2_D1, dtype: float64",2018,1.6224864725793355,410.8797270879877,7.917109949461805
+3,17,"0    1.60699
+Name: D0, dtype: float64","0    0.99903
+Name: R2_D0, dtype: float64","0    1.628677
+Name: D1, dtype: float64","0    0.999027
+Name: R2_D1, dtype: float64",3577,2.875933653328188,282.26703802356013,8.350346541677395
+3,18,"0    1.633457
+Name: D0, dtype: float64","0    0.999333
+Name: R2_D0, dtype: float64","0    1.655811
+Name: D1, dtype: float64","0    0.999286
+Name: R2_D1, dtype: float64",4003,3.2184407084911193,153.7442080288048,8.72004317637661
+3,19,"0    1.639344
+Name: D0, dtype: float64","0    0.99912
+Name: R2_D0, dtype: float64","0    1.652437
+Name: D1, dtype: float64","0    0.999441
+Name: R2_D1, dtype: float64",6062,4.873891475111957,27.028495974235554,7.8119144611663796
+4,0,"0    1.352199
+Name: D0, dtype: float64","0    0.999545
+Name: R2_D0, dtype: float64","0    1.37954
+Name: D1, dtype: float64","0    0.99963
+Name: R2_D1, dtype: float64",0,0.0,2293.5028842544402,393.5028842544403
+4,1,"0    1.352126
+Name: D0, dtype: float64","0    0.999538
+Name: R2_D0, dtype: float64","0    1.380066
+Name: D1, dtype: float64","0    0.999621
+Name: R2_D1, dtype: float64",0,0.0,2172.792206135786,372.7922061357856
+4,2,"0    1.353324
+Name: D0, dtype: float64","0    0.999471
+Name: R2_D0, dtype: float64","0    1.380092
+Name: D1, dtype: float64","0    0.999624
+Name: R2_D1, dtype: float64",0,0.0,2052.0815280171305,352.0815280171308
+4,3,"0    1.352202
+Name: D0, dtype: float64","0    0.999477
+Name: R2_D0, dtype: float64","0    1.379121
+Name: D1, dtype: float64","0    0.999641
+Name: R2_D1, dtype: float64",0,0.0,1931.370849898476,331.370849898476
+4,4,"0    1.352399
+Name: D0, dtype: float64","0    0.999429
+Name: R2_D0, dtype: float64","0    1.379994
+Name: D1, dtype: float64","0    0.999625
+Name: R2_D1, dtype: float64",0,0.0,1810.6601717798212,310.6601717798213
+4,5,"0    1.353406
+Name: D0, dtype: float64","0    0.999489
+Name: R2_D0, dtype: float64","0    1.38109
+Name: D1, dtype: float64","0    0.999603
+Name: R2_D1, dtype: float64",0,0.0,1689.9494936611663,289.9494936611665
+4,6,"0    1.365764
+Name: D0, dtype: float64","0    0.999187
+Name: R2_D0, dtype: float64","0    1.384089
+Name: D1, dtype: float64","0    0.999542
+Name: R2_D1, dtype: float64",0,0.0,1569.2388155425117,269.23881554251176
+4,7,"0    1.377118
+Name: D0, dtype: float64","0    0.998758
+Name: R2_D0, dtype: float64","0    1.389303
+Name: D1, dtype: float64","0    0.999407
+Name: R2_D1, dtype: float64",0,0.0,1448.5281374238573,248.52813742385703
+4,8,"0    1.394977
+Name: D0, dtype: float64","0    0.998428
+Name: R2_D0, dtype: float64","0    1.401078
+Name: D1, dtype: float64","0    0.999148
+Name: R2_D1, dtype: float64",0,0.0,1327.8174593052022,227.81745930520225
+4,9,"0    1.417503
+Name: D0, dtype: float64","0    0.998339
+Name: R2_D0, dtype: float64","0    1.419635
+Name: D1, dtype: float64","0    0.998962
+Name: R2_D1, dtype: float64",7,0.004525764530936833,1207.1067811865476,207.10678118654755
+4,10,"0    1.435888
+Name: D0, dtype: float64","0    0.998503
+Name: R2_D0, dtype: float64","0    1.438587
+Name: D1, dtype: float64","0    0.999095
+Name: R2_D1, dtype: float64",118,0.07629145923579234,1086.3961030678927,186.39610306789277
+4,11,"0    1.463769
+Name: D0, dtype: float64","0    0.99817
+Name: R2_D0, dtype: float64","0    1.463158
+Name: D1, dtype: float64","0    0.999045
+Name: R2_D1, dtype: float64",414,0.267666645115407,965.685424949238,165.685424949238
+4,12,"0    1.49162
+Name: D0, dtype: float64","0    0.998032
+Name: R2_D0, dtype: float64","0    1.496181
+Name: D1, dtype: float64","0    0.998693
+Name: R2_D1, dtype: float64",888,0.574125557638844,844.9747468305832,144.97474683058329
+4,13,"0    1.520954
+Name: D0, dtype: float64","0    0.997944
+Name: R2_D0, dtype: float64","0    1.52401
+Name: D1, dtype: float64","0    0.998691
+Name: R2_D1, dtype: float64",1694,1.0952350164867137,724.2640687119286,124.2640687119285
+4,14,"0    1.555871
+Name: D0, dtype: float64","0    0.998342
+Name: R2_D0, dtype: float64","0    1.569856
+Name: D1, dtype: float64","0    0.998683
+Name: R2_D1, dtype: float64",2116,1.3680739639231914,603.5533905932738,103.55339059327379
+4,15,"0    1.579239
+Name: D0, dtype: float64","0    0.998605
+Name: R2_D0, dtype: float64","0    1.60203
+Name: D1, dtype: float64","0    0.998813
+Name: R2_D1, dtype: float64",4199,2.714812180771966,482.842712474619,82.842712474619
+4,16,"0    1.609667
+Name: D0, dtype: float64","0    0.999118
+Name: R2_D0, dtype: float64","0    1.644198
+Name: D1, dtype: float64","0    0.998953
+Name: R2_D1, dtype: float64",5472,3.5378547876123356,362.1320343559643,62.13203435596425
+4,17,"0    1.622145
+Name: D0, dtype: float64","0    0.999221
+Name: R2_D0, dtype: float64","0    1.65604
+Name: D1, dtype: float64","0    0.999436
+Name: R2_D1, dtype: float64",9144,5.911941552983771,241.4213562373095,41.4213562373095
+4,18,"0    1.661622
+Name: D0, dtype: float64","0    0.999064
+Name: R2_D0, dtype: float64","0    1.678999
+Name: D1, dtype: float64","0    0.999334
+Name: R2_D1, dtype: float64",10176,6.579168552401887,120.71067811865476,20.71067811865475
+4,19,"0    1.677414
+Name: D0, dtype: float64","0    0.999165
+Name: R2_D0, dtype: float64","0    1.690316
+Name: D1, dtype: float64","0    0.999275
+Name: R2_D1, dtype: float64",11530,7.454580720243098,2.2737367544323206e-13,2.2737367544323206e-13
+5,0,"0    1.386468
+Name: D0, dtype: float64","0    0.999263
+Name: R2_D0, dtype: float64","0    1.412316
+Name: D1, dtype: float64","0    0.99958
+Name: R2_D1, dtype: float64",0,0.0,2193.4429282276865,517.801697308068
+5,1,"0    1.387209
+Name: D0, dtype: float64","0    0.999177
+Name: R2_D0, dtype: float64","0    1.412443
+Name: D1, dtype: float64","0    0.999573
+Name: R2_D1, dtype: float64",0,0.0,2078.623236402667,490.69664288767166
+5,2,"0    1.390661
+Name: D0, dtype: float64","0    0.999179
+Name: R2_D0, dtype: float64","0    1.413637
+Name: D1, dtype: float64","0    0.999553
+Name: R2_D1, dtype: float64",0,0.0,1963.8035831724937,463.5917580160008
+5,3,"0    1.395714
+Name: D0, dtype: float64","0    0.998955
+Name: R2_D0, dtype: float64","0    1.416302
+Name: D1, dtype: float64","0    0.999493
+Name: R2_D1, dtype: float64",0,0.0,1848.9839757376235,436.48707423490407
+5,4,"0    1.403784
+Name: D0, dtype: float64","0    0.998835
+Name: R2_D0, dtype: float64","0    1.421176
+Name: D1, dtype: float64","0    0.999399
+Name: R2_D1, dtype: float64",0,0.0,1734.1644232084304,409.3826314268731
+5,5,"0    1.418601
+Name: D0, dtype: float64","0    0.998515
+Name: R2_D0, dtype: float64","0    1.429642
+Name: D1, dtype: float64","0    0.999277
+Name: R2_D1, dtype: float64",1,0.00048044123723227415,1619.3449372834395,382.278480766936
+5,6,"0    1.42937
+Name: D0, dtype: float64","0    0.998188
+Name: R2_D0, dtype: float64","0    1.439698
+Name: D1, dtype: float64","0    0.999184
+Name: R2_D1, dtype: float64",34,0.01633500206589732,1504.525533238673,355.1746890236314
+5,7,"0    1.448668
+Name: D0, dtype: float64","0    0.998089
+Name: R2_D0, dtype: float64","0    1.45365
+Name: D1, dtype: float64","0    0.999062
+Name: R2_D1, dtype: float64",230,0.11050148456342304,1389.706231408394,328.0713449876262
+5,8,"0    1.469797
+Name: D0, dtype: float64","0    0.997878
+Name: R2_D0, dtype: float64","0    1.472291
+Name: D1, dtype: float64","0    0.998944
+Name: R2_D1, dtype: float64",656,0.3151694516243718,1274.8870594676896,300.9685693661426
+5,9,"0    1.497737
+Name: D0, dtype: float64","0    0.997752
+Name: R2_D0, dtype: float64","0    1.498288
+Name: D1, dtype: float64","0    0.998805
+Name: R2_D1, dtype: float64",918,0.44104505577922765,1160.0680560737349,273.8665305380433
+5,10,"0    1.518478
+Name: D0, dtype: float64","0    0.997918
+Name: R2_D0, dtype: float64","0    1.522749
+Name: D1, dtype: float64","0    0.998702
+Name: R2_D1, dtype: float64",1850,0.8888162888797071,1045.2492769131748,246.7654706625063
+5,11,"0    1.550789
+Name: D0, dtype: float64","0    0.997903
+Name: R2_D0, dtype: float64","0    1.558855
+Name: D1, dtype: float64","0    0.998526
+Name: R2_D1, dtype: float64",2408,1.156902499255316,930.4308052401484,219.6657510540412
+5,12,"0    1.578711
+Name: D0, dtype: float64","0    0.998293
+Name: R2_D0, dtype: float64","0    1.594302
+Name: D1, dtype: float64","0    0.998554
+Name: R2_D1, dtype: float64",3640,1.7488061035254778,815.6127713449036,192.5679357323461
+5,13,"0    1.598335
+Name: D0, dtype: float64","0    0.998808
+Name: R2_D0, dtype: float64","0    1.626686
+Name: D1, dtype: float64","0    0.99889
+Name: R2_D1, dtype: float64",5537,2.6602031305551015,700.795391235138,165.47295671463903
+5,14,"0    1.614488
+Name: D0, dtype: float64","0    0.999104
+Name: R2_D0, dtype: float64","0    1.653201
+Name: D1, dtype: float64","0    0.999009
+Name: R2_D1, dtype: float64",9765,4.691508681573157,585.9790510051839,138.3824724830535
+5,15,"0    1.656392
+Name: D0, dtype: float64","0    0.999112
+Name: R2_D0, dtype: float64","0    1.69474
+Name: D1, dtype: float64","0    0.999132
+Name: R2_D1, dtype: float64",11446,5.49913040136061,471.1645152836215,111.29974650542967
+5,16,"0    1.676176
+Name: D0, dtype: float64","0    0.999236
+Name: R2_D0, dtype: float64","0    1.715056
+Name: D1, dtype: float64","0    0.999367
+Name: R2_D1, dtype: float64",14851,7.135032814136504,356.35354178630143,84.23220535012385
+5,17,"0    1.712027
+Name: D0, dtype: float64","0    0.999437
+Name: R2_D0, dtype: float64","0    1.744486
+Name: D1, dtype: float64","0    0.999446
+Name: R2_D1, dtype: float64",17234,8.279924282461012,241.55126899333723,57.20116027371409
+5,18,"0    1.725084
+Name: D0, dtype: float64","0    0.999635
+Name: R2_D0, dtype: float64","0    1.755924
+Name: D1, dtype: float64","0    0.999643
+Name: R2_D1, dtype: float64",19416,9.328247062101834,126.78187767356856,30.302160148724013
+5,19,"0    1.73186
+Name: D0, dtype: float64","0    0.999484
+Name: R2_D0, dtype: float64","0    1.749611
+Name: D1, dtype: float64","0    0.999715
+Name: R2_D1, dtype: float64",19882,9.552132678652073,13.21029213383861,5.199108098240424
+6,0,"0    1.381244
+Name: D0, dtype: float64","0    0.999105
+Name: R2_D0, dtype: float64","0    1.406442
+Name: D1, dtype: float64","0    0.999347
+Name: R2_D1, dtype: float64",0,0.0,2128.338287295939,590.4042096628455
+6,1,"0    1.38821
+Name: D0, dtype: float64","0    0.998896
+Name: R2_D0, dtype: float64","0    1.40854
+Name: D1, dtype: float64","0    0.999303
+Name: R2_D1, dtype: float64",0,0.0,2017.4463015696992,559.6431114537041
+6,2,"0    1.394134
+Name: D0, dtype: float64","0    0.998724
+Name: R2_D0, dtype: float64","0    1.412148
+Name: D1, dtype: float64","0    0.999196
+Name: R2_D1, dtype: float64",0,0.0,1906.5545643580926,528.8824831638733
+6,3,"0    1.406724
+Name: D0, dtype: float64","0    0.998333
+Name: R2_D0, dtype: float64","0    1.417112
+Name: D1, dtype: float64","0    0.999102
+Name: R2_D1, dtype: float64",1,0.00041523928163604275,1795.6631218178304,498.1224114343031
+6,4,"0    1.419575
+Name: D0, dtype: float64","0    0.99787
+Name: R2_D0, dtype: float64","0    1.42481
+Name: D1, dtype: float64","0    0.998971
+Name: R2_D1, dtype: float64",4,0.0016609847147881622,1684.7720322895761,467.3630055983821
+6,5,"0    1.433717
+Name: D0, dtype: float64","0    0.997621
+Name: R2_D0, dtype: float64","0    1.435128
+Name: D1, dtype: float64","0    0.998814
+Name: R2_D1, dtype: float64",58,0.02408737904398023,1573.8813706019619,436.60440563124513
+6,6,"0    1.447735
+Name: D0, dtype: float64","0    0.997474
+Name: R2_D0, dtype: float64","0    1.446996
+Name: D1, dtype: float64","0    0.9987
+Name: R2_D1, dtype: float64",151,0.06270243335271157,1462.9912343386463,405.8467936921855
+6,7,"0    1.469364
+Name: D0, dtype: float64","0    0.997237
+Name: R2_D0, dtype: float64","0    1.462607
+Name: D1, dtype: float64","0    0.998584
+Name: R2_D1, dtype: float64",495,0.20554515141826155,1352.101753198818,375.09041130912243
+6,8,"0    1.490218
+Name: D0, dtype: float64","0    0.997
+Name: R2_D0, dtype: float64","0    1.482242
+Name: D1, dtype: float64","0    0.998417
+Name: R2_D1, dtype: float64",938,0.3894944461746081,1241.213103392055,344.335585707676
+6,9,"0    1.521581
+Name: D0, dtype: float64","0    0.996893
+Name: R2_D0, dtype: float64","0    1.510908
+Name: D1, dtype: float64","0    0.998197
+Name: R2_D1, dtype: float64",1253,0.5202948198899616,1130.325530537063,313.5827715138576
+6,10,"0    1.545095
+Name: D0, dtype: float64","0    0.997145
+Name: R2_D0, dtype: float64","0    1.538468
+Name: D1, dtype: float64","0    0.997915
+Name: R2_D1, dtype: float64",1688,0.7009239074016402,1019.4393875644301,282.8326194304416
+6,11,"0    1.573899
+Name: D0, dtype: float64","0    0.997698
+Name: R2_D0, dtype: float64","0    1.574409
+Name: D1, dtype: float64","0    0.997957
+Name: R2_D1, dtype: float64",2794,1.1601785528911035,908.5552004967275,252.08609469662642
+6,12,"0    1.59586
+Name: D0, dtype: float64","0    0.998097
+Name: R2_D0, dtype: float64","0    1.605221
+Name: D1, dtype: float64","0    0.998362
+Name: R2_D1, dtype: float64",3824,1.5878750129762274,797.6737893621929,221.34469320728203
+6,13,"0    1.6204
+Name: D0, dtype: float64","0    0.998364
+Name: R2_D0, dtype: float64","0    1.638514
+Name: D1, dtype: float64","0    0.998541
+Name: R2_D1, dtype: float64",6518,2.706529637703727,686.7965068870003,190.61086414918944
+6,14,"0    1.640624
+Name: D0, dtype: float64","0    0.998857
+Name: R2_D0, dtype: float64","0    1.671929
+Name: D1, dtype: float64","0    0.998849
+Name: R2_D1, dtype: float64",9487,3.939375064881138,575.925754676697,159.88891287823458
+6,15,"0    1.652074
+Name: D0, dtype: float64","0    0.999347
+Name: R2_D0, dtype: float64","0    1.694454
+Name: D1, dtype: float64","0    0.999201
+Name: R2_D1, dtype: float64",14246,5.915498806187065,465.06624335134427,129.18716892089336
+6,16,"0    1.678425
+Name: D0, dtype: float64","0    0.999591
+Name: R2_D0, dtype: float64","0    1.729564
+Name: D1, dtype: float64","0    0.999479
+Name: R2_D1, dtype: float64",16086,6.679539084397384,354.2286409940993,98.52411469087721
+6,17,"0    1.702071
+Name: D0, dtype: float64","0    0.999636
+Name: R2_D0, dtype: float64","0    1.75228
+Name: D1, dtype: float64","0    0.999574
+Name: R2_D1, dtype: float64",21477,8.918094051697292,243.44330859331518,67.9505903926371
+6,18,"0    1.720887
+Name: D0, dtype: float64","0    0.999804
+Name: R2_D0, dtype: float64","0    1.76296
+Name: D1, dtype: float64","0    0.999763
+Name: R2_D1, dtype: float64",25175,10.453648915187378,132.84391424631514,37.675159438364304
+6,19,"0    1.732936
+Name: D0, dtype: float64","0    0.999669
+Name: R2_D0, dtype: float64","0    1.773488
+Name: D1, dtype: float64","0    0.999746
+Name: R2_D1, dtype: float64",25448,10.567009239074016,24.94720547486525,10.8423285046989
+7,0,"0    1.421669
+Name: D0, dtype: float64","0    0.998703
+Name: R2_D0, dtype: float64","0    1.450116
+Name: D1, dtype: float64","0    0.999167
+Name: R2_D1, dtype: float64",2,0.0006474901662431001,2081.943084975417,638.3007887345145
+7,1,"0    1.4347
+Name: D0, dtype: float64","0    0.998567
+Name: R2_D0, dtype: float64","0    1.458462
+Name: D1, dtype: float64","0    0.99904
+Name: R2_D1, dtype: float64",36,0.011651729796386023,1973.2432369804665,604.9750775237593
+7,2,"0    1.450211
+Name: D0, dtype: float64","0    0.998368
+Name: R2_D0, dtype: float64","0    1.469471
+Name: D1, dtype: float64","0    0.998902
+Name: R2_D1, dtype: float64",102,0.032998495656815646,1864.5436248285737,571.649808296146
+7,3,"0    1.462229
+Name: D0, dtype: float64","0    0.998491
+Name: R2_D0, dtype: float64","0    1.48312
+Name: D1, dtype: float64","0    0.998819
+Name: R2_D1, dtype: float64",178,0.05759995857980507,1755.8442922254394,538.3250634468163
+7,4,"0    1.476187
+Name: D0, dtype: float64","0    0.998409
+Name: R2_D0, dtype: float64","0    1.495926
+Name: D1, dtype: float64","0    0.998847
+Name: R2_D1, dtype: float64",319,0.10318849205707391,1647.1452943873426,505.00094720404985
+7,5,"0    1.490818
+Name: D0, dtype: float64","0    0.998326
+Name: R2_D0, dtype: float64","0    1.510722
+Name: D1, dtype: float64","0    0.99891
+Name: R2_D1, dtype: float64",852,0.27560061201450464,1538.4467020977334,471.6775933723663
+7,6,"0    1.508146
+Name: D0, dtype: float64","0    0.998267
+Name: R2_D0, dtype: float64","0    1.527438
+Name: D1, dtype: float64","0    0.998898
+Name: R2_D1, dtype: float64",1571,0.5081790627638343,1429.748607609547,438.3551766216414
+7,7,"0    1.526703
+Name: D0, dtype: float64","0    0.998333
+Name: R2_D0, dtype: float64","0    1.547897
+Name: D1, dtype: float64","0    0.998857
+Name: R2_D1, dtype: float64",2004,0.6482436930482011,1321.0511334534542,405.0339293727965
+7,8,"0    1.548001
+Name: D0, dtype: float64","0    0.998218
+Name: R2_D0, dtype: float64","0    1.567907
+Name: D1, dtype: float64","0    0.998828
+Name: R2_D1, dtype: float64",2885,0.9332250770678941,1212.3544459704906,371.71416780734455
+7,9,"0    1.570795
+Name: D0, dtype: float64","0    0.998242
+Name: R2_D0, dtype: float64","0    1.59046
+Name: D1, dtype: float64","0    0.998686
+Name: R2_D1, dtype: float64",4523,1.4630769579126812,1103.6587768157997,338.3963333190528
+7,10,"0    1.596354
+Name: D0, dtype: float64","0    0.998471
+Name: R2_D0, dtype: float64","0    1.618912
+Name: D1, dtype: float64","0    0.9986
+Name: R2_D1, dtype: float64",5547,1.7943152521648558,994.9644585079999,305.0810612727676
+7,11,"0    1.619132
+Name: D0, dtype: float64","0    0.998873
+Name: R2_D0, dtype: float64","0    1.650255
+Name: D1, dtype: float64","0    0.998671
+Name: R2_D1, dtype: float64",7834,2.5341023409878276,886.2719860361183,271.76930063206873
+7,12,"0    1.636627
+Name: D0, dtype: float64","0    0.999157
+Name: R2_D0, dtype: float64","0    1.679995
+Name: D1, dtype: float64","0    0.998923
+Name: R2_D1, dtype: float64",10765,3.482207263305331,777.5821299118159,238.46253449791953
+7,13,"0    1.649952
+Name: D0, dtype: float64","0    0.999481
+Name: R2_D0, dtype: float64","0    1.706858
+Name: D1, dtype: float64","0    0.99926
+Name: R2_D1, dtype: float64",15215,4.921670553756676,668.8961588993762,205.1632169952768
+7,14,"0    1.66378
+Name: D0, dtype: float64","0    0.999625
+Name: R2_D0, dtype: float64","0    1.732235
+Name: D1, dtype: float64","0    0.999403
+Name: R2_D1, dtype: float64",20417,6.604386966549461,560.2163205382606,171.87572208864043
+7,15,"0    1.685913
+Name: D0, dtype: float64","0    0.999746
+Name: R2_D0, dtype: float64","0    1.759272
+Name: D1, dtype: float64","0    0.999474
+Name: R2_D1, dtype: float64",26429,8.549118045694064,451.54701090305616,138.60867213153233
+7,16,"0    1.695928
+Name: D0, dtype: float64","0    0.99985
+Name: R2_D0, dtype: float64","0    1.778274
+Name: D1, dtype: float64","0    0.999701
+Name: R2_D1, dtype: float64",32801,10.610300087661697,342.8981501097638,105.38172452275914
+7,17,"0    1.721208
+Name: D0, dtype: float64","0    0.99981
+Name: R2_D0, dtype: float64","0    1.793107
+Name: D1, dtype: float64","0    0.999777
+Name: R2_D1, dtype: float64",38283,12.38358947153906,234.29784669279547,72.25133338319978
+7,18,"0    1.732278
+Name: D0, dtype: float64","0    0.9998
+Name: R2_D0, dtype: float64","0    1.79535
+Name: D1, dtype: float64","0    0.999797
+Name: R2_D1, dtype: float64",42486,13.74315446249794,125.86956665341789,39.46872206391742
+7,19,"0    1.740696
+Name: D0, dtype: float64","0    0.999782
+Name: R2_D0, dtype: float64","0    1.786108
+Name: D1, dtype: float64","0    0.999736
+Name: R2_D1, dtype: float64",44349,14.345788195107117,21.2998098347018,9.292060273979262
+8,0,"0    1.410284
+Name: D0, dtype: float64","0    0.997919
+Name: R2_D0, dtype: float64","0    1.410799
+Name: D1, dtype: float64","0    0.998817
+Name: R2_D1, dtype: float64",1,0.00032562259039283105,2046.8788909423604,672.2108501444454
+8,1,"0    1.422016
+Name: D0, dtype: float64","0    0.997899
+Name: R2_D0, dtype: float64","0    1.419471
+Name: D1, dtype: float64","0    0.998719
+Name: R2_D1, dtype: float64",49,0.0159429956563471,1939.183714410635,636.8429218389805
+8,2,"0    1.435681
+Name: D0, dtype: float64","0    0.997698
+Name: R2_D0, dtype: float64","0    1.430331
+Name: D1, dtype: float64","0    0.998661
+Name: R2_D1, dtype: float64",75,0.02440206799392226,1831.4885385610453,601.4749938776638
+8,3,"0    1.448075
+Name: D0, dtype: float64","0    0.997593
+Name: R2_D0, dtype: float64","0    1.442233
+Name: D1, dtype: float64","0    0.998597
+Name: R2_D1, dtype: float64",231,0.07517402298177274,1723.7933635214442,566.1070663249983
+8,4,"0    1.464799
+Name: D0, dtype: float64","0    0.997422
+Name: R2_D0, dtype: float64","0    1.457106
+Name: D1, dtype: float64","0    0.998552
+Name: R2_D1, dtype: float64",521,0.16957537804568446,1616.0981894537615,530.7391392626805
+8,5,"0    1.482696
+Name: D0, dtype: float64","0    0.997448
+Name: R2_D0, dtype: float64","0    1.472681
+Name: D1, dtype: float64","0    0.998451
+Name: R2_D1, dtype: float64",620,0.2017874462171363,1508.4030165661723,495.371212795738
+8,6,"0    1.502529
+Name: D0, dtype: float64","0    0.997369
+Name: R2_D0, dtype: float64","0    1.491539
+Name: D1, dtype: float64","0    0.998298
+Name: R2_D1, dtype: float64",929,0.3022583153572602,1400.707845130876,460.0032870614997
+8,7,"0    1.527607
+Name: D0, dtype: float64","0    0.99731
+Name: R2_D0, dtype: float64","0    1.516675
+Name: D1, dtype: float64","0    0.998206
+Name: R2_D1, dtype: float64",1163,0.3784070462450503,1293.0126755107565,424.63536224304704
+8,8,"0    1.549538
+Name: D0, dtype: float64","0    0.997312
+Name: R2_D0, dtype: float64","0    1.538364
+Name: D1, dtype: float64","0    0.998018
+Name: R2_D1, dtype: float64",1904,0.6194831350271512,1185.3175082005832,389.2674385899991
+8,9,"0    1.576905
+Name: D0, dtype: float64","0    0.997508
+Name: R2_D0, dtype: float64","0    1.566961
+Name: D1, dtype: float64","0    0.997998
+Name: R2_D1, dtype: float64",3165,1.029760568466877,1077.6223438929069,353.89951645176103
+8,10,"0    1.603986
+Name: D0, dtype: float64","0    0.997733
+Name: R2_D0, dtype: float64","0    1.595477
+Name: D1, dtype: float64","0    0.998219
+Name: R2_D1, dtype: float64",4175,1.3583729457659435,969.9271835878677,318.5315963329231
+8,11,"0    1.62268
+Name: D0, dtype: float64","0    0.998272
+Name: R2_D0, dtype: float64","0    1.626024
+Name: D1, dtype: float64","0    0.998503
+Name: R2_D1, dtype: float64",5978,1.9449948430631878,862.2320287852845,283.1636789901766
+8,12,"0    1.64718
+Name: D0, dtype: float64","0    0.998757
+Name: R2_D0, dtype: float64","0    1.664062
+Name: D1, dtype: float64","0    0.998717
+Name: R2_D1, dtype: float64",8039,2.615559308026927,754.5368818412524,247.7957656122298
+8,13,"0    1.672612
+Name: D0, dtype: float64","0    0.998931
+Name: R2_D0, dtype: float64","0    1.691446
+Name: D1, dtype: float64","0    0.99891
+Name: R2_D1, dtype: float64",12289,3.998334162998246,646.8417466809622,212.42785817945577
+8,14,"0    1.693746
+Name: D0, dtype: float64","0    0.999293
+Name: R2_D0, dtype: float64","0    1.723562
+Name: D1, dtype: float64","0    0.999215
+Name: R2_D1, dtype: float64",15351,4.994582776156407,539.146630365833,177.0599602545989
+8,15,"0    1.717037
+Name: D0, dtype: float64","0    0.99956
+Name: R2_D0, dtype: float64","0    1.752166
+Name: D1, dtype: float64","0    0.999438
+Name: R2_D1, dtype: float64",20808,6.770065689939581,431.45154700766636,141.69207895776248
+8,16,"0    1.72626
+Name: D0, dtype: float64","0    0.999669
+Name: R2_D0, dtype: float64","0    1.773979
+Name: D1, dtype: float64","0    0.999647
+Name: R2_D1, dtype: float64",26980,8.778180138147341,323.7565294947356,106.32423088355941
+8,17,"0    1.750808
+Name: D0, dtype: float64","0    0.999719
+Name: R2_D0, dtype: float64","0    1.792361
+Name: D1, dtype: float64","0    0.999758
+Name: R2_D1, dtype: float64",34327,11.168591163905997,216.06167628557566,70.95646571795709
+8,18,"0    1.774291
+Name: D0, dtype: float64","0    0.999723
+Name: R2_D0, dtype: float64","0    1.804774
+Name: D1, dtype: float64","0    0.999743
+Name: R2_D1, dtype: float64",40686,13.237547705732498,108.36747719332281,35.589030762544425
+8,19,"0    1.767006
+Name: D0, dtype: float64","0    0.999626
+Name: R2_D0, dtype: float64","0    1.799505
+Name: D1, dtype: float64","0    0.999709
+Name: R2_D1, dtype: float64",41469,13.492303637836626,0.8554947117483541,0.5141053323355762
